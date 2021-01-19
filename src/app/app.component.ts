@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'event-finder';
+
+  buttonClick() {
+    console.log('Button Clicked!');
+  }
 }

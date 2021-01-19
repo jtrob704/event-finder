@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "event-finder-2025b": {
+      "hosting": {
+        "event-finder": [
+          "event-finder-2025b"
+        ]
+      }
+    }
+  }
+}
