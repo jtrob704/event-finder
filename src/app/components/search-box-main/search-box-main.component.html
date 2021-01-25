@@ -17,7 +17,7 @@
           <mat-label>State</mat-label>
           <mat-select>
             <mat-option *ngFor="let state of usStates" [value]="state.abbreviation">
-              {{state.name}}
+              {{state.name | titlecase}}
             </mat-option>
           </mat-select>
         </mat-form-field>
