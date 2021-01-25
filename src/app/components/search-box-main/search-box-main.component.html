@@ -13,9 +13,13 @@
         </mat-form-field>
       </div>
       <div class="col-3">
-        <mat-form-field class="state-code-field">
+        <mat-form-field appearance="fill" class="state-field">
           <mat-label>State</mat-label>
-          <input matInput placeholder="Ex. CA">
+          <mat-select>
+            <mat-option *ngFor="let state of usStates" [value]="state.abbreviation">
+              {{state.name}}
+            </mat-option>
+          </mat-select>
         </mat-form-field>
       </div>
       <div class="col-4">
